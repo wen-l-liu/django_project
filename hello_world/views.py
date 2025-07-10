@@ -6,6 +6,3 @@ def index(request):
        return HttpResponse("You must have POSTed something")
     else:
         return HttpResponse(f'{request.method} request received. This is the hello world page!')
-
-
-    return HttpResponse("Hello, World!")
